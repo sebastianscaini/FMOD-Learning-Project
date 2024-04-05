@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: Assets/Game/Audio/FMOD Learning Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638479332676594877
+  lastModified: 638479358489812917
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 802
   Exists: 1
+--- !u!114 &-2550467282999182638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestEvent3D
+  m_EditorClassIdentifier: 
+  Path: event:/TestEvent3D
+  Guid:
+    Data1: 1889032335
+    Data2: 1268527798
+    Data3: 292606636
+    Data4: 1744026412
+  Banks:
+  - {fileID: 7144249089386029162}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,14 +62,43 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -2825813214149018008}
   - {fileID: 7144249089386029162}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 238795154183535460}
+  - {fileID: -2550467282999182638}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7144249089386029162}
   StringsBanks:
   - {fileID: -2825813214149018008}
-  cacheTime: 638479332676594877
+  cacheTime: 638479358489812917
   cacheVersion: 131609
+--- !u!114 &238795154183535460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestEvent
+  m_EditorClassIdentifier: 
+  Path: event:/TestEvent
+  Guid:
+    Data1: 1511573368
+    Data2: 1325361931
+    Data3: 1794631562
+    Data4: 246671559
+  Banks:
+  - {fileID: 7144249089386029162}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7144249089386029162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +114,8 @@ MonoBehaviour:
   Path: Assets/Game/Audio/FMOD Learning Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638479332676564496
+  lastModified: 638479358489801475
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 9472
   Exists: 1

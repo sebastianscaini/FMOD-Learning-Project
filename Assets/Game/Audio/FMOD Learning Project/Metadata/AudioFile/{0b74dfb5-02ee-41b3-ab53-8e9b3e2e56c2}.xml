@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0b74dfb5-02ee-41b3-ab53-8e9b3e2e56c2}">
+		<property name="assetPath">
+			<value>136642__smmassuda__tooteffect.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.62535416666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7dae33cb-a513-43ed-8d0b-49f856f8be5b}</destination>
+		</relationship>
+	</object>
+</objects>
