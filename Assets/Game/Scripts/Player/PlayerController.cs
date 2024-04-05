@@ -83,6 +83,6 @@ public class PlayerController : MonoBehaviour
 
     private void FaceMovement()
     {
-        body.forward = rb.velocity.normalized;
+        body.forward = Vector3.Lerp(body.forward, rb.velocity.normalized, 0.1f);
     }
 }
