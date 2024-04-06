@@ -77,7 +77,6 @@ public class PlayerController : MonoBehaviour
             FMODUnity.RuntimeManager.AttachInstanceToGameObject(deathSFX, this.transform);
             //Play SFX
             deathSFX.start();
-            
         }
     }
 
